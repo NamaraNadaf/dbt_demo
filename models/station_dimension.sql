@@ -1,3 +1,5 @@
+{{config(materialized='table')}}
+
 with bike as  (
     select distinct
     start_statio_id as station_id,
